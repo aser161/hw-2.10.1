@@ -55,7 +55,7 @@ public class Main {
         Function<Double, Long> rounding2 = Double::longValue;
         System.out.println(rounding.apply(num1));
 
-        //        Задание 4
+//        Задание 4
 
         Supplier <Integer> randomNum = new Supplier<Integer>() {
             @Override
@@ -72,7 +72,7 @@ public class Main {
 
         System.out.println(randomNum.get());
 
-        //        Задание 5
+//        Задание 5
 
         int i = 8;
 
